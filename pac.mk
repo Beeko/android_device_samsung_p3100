@@ -34,7 +34,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso-common/overlay/cm-common
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := p3100
-PRODUCT_NAME := cm_p3100
+PRODUCT_NAME := pac_p3100
 PRODUCT_BRAND := samsung
 PRODUCT_MODEL := GT-P3100
 PRODUCT_MANUFACTURER := samsung
