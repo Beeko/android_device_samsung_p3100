@@ -18,12 +18,11 @@
 PRODUCT_RELEASE_NAME := p3100
 
 # Boot animation
-# TARGET_SCREEN_HEIGHT := 1024
-TARGET_SCREEN_HEIGHT := 480
+TARGET_SCREEN_HEIGHT := 1024
 TARGET_SCREEN_WIDTH := 600
 
 # Inherit common CM configuration
-$(call inherit-product, vendor/cm/config/common_full_phone.mk)
+$(call inherit-product, vendor/aicp/configs/common_tablet.mk)
 
 # CyanogenMod specific overlay
 DEVICE_PACKAGE_OVERLAYS += device/samsung/p3100/overlay/cm
@@ -33,7 +32,7 @@ DEVICE_PACKAGE_OVERLAYS += device/samsung/espresso-common/overlay/cm-common
 $(call inherit-product, device/samsung/p3100/aosp_p3100.mk)
 
 # Device identifier. This must come after all inclusions
-PRODUCT_NAME := cm_p3100
+PRODUCT_NAME := aicp_p3100
 
 # Set build fingerprint / ID / Product Name etc.
 PRODUCT_BUILD_PROP_OVERRIDES += \

@@ -16,4 +16,4 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_p3100.mk \
-    $(LOCAL_DIR)/cm.mk
+    $(LOCAL_DIR)/aicp.mk
